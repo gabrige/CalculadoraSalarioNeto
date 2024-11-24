@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Salario bruto anual -->
+    <EditText
+        android:id="@+id/salarioBruto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Salario Bruto Anual (€)"
+        android:inputType="numberDecimal" />
+
+    <!-- Número de pagas -->
+    <EditText
+        android:id="@+id/numeroPagas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número de Pagas"
+        android:inputType="number" />
+
+    <!-- Edad -->
+    <EditText
+        android:id="@+id/edad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edad"
+        android:inputType="number" />
+
+    <!-- Número de hijos -->
+    <EditText
+        android:id="@+id/numeroHijos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número de Hijos"
+        android:inputType="number" />
+
+    <!-- Botón para calcular -->
+    <Button
+        android:id="@+id/calcularButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular Salario Neto" />
+</LinearLayout>
